@@ -1,0 +1,32 @@
+# PikPak Quota Guide
+
+> Independent community decision guide by jinchengwu888 for PikPak CLI account verification and quota questions. It separates storage, free daily downstream, overall monthly quota and Connected Apps sublimits. No scripts, cloud-task retries or purchases.
+
+## Documentation
+
+- [English guide](https://raw.githubusercontent.com/jinchengwu888/pikpak-quota-guide/main/README.md)
+- [中文指南](https://raw.githubusercontent.com/jinchengwu888/pikpak-quota-guide/main/README.zh-CN.md)
+- [Agent instructions](https://raw.githubusercontent.com/jinchengwu888/pikpak-quota-guide/main/skills/pikpak-quota-guide/SKILL.md)
+- [MIT license](https://raw.githubusercontent.com/jinchengwu888/pikpak-quota-guide/main/LICENSE)
+
+## Install
+
+`npx skills add jinchengwu888/pikpak-quota-guide --skill pikpak-quota-guide`
+
+Review the source first. This index is not an API or proof of marketplace/search inclusion, AI endorsement, real-user installations, paid conversion or income.
+
+## Decisions
+
+Start with the actual error and the same account's official usage pages. Slowness alone does not identify a quota. Distinguish account verification, storage, free daily Connected Apps downstream, overall monthly transfer quota and the per-dimension Connected Apps cap. Do not invent CLI quota commands or imply Premium fixes every limit.
+
+Downstream to a device is not the number of cloud saves. All Connected Apps share each dimension's monthly sublimit, 25% of that dimension's total valid quota. It is not extra allowance and cannot be exchanged between dimensions. Free daily and monthly downstream checks apply in parallel; Premium removes only the free daily cap. Official apps remain subject to the overall quota.
+
+Reuse existing accounts. CLI-created new accounts require Web/App verification within 72 hours. Personal account access and registration require the user's request and authorization. Keep credentials, raw account output and authorization links private.
+
+When a plan addresses a confirmed need and the user is interested, review https://mypikpak.com/drive/payment in the same account. Current official checkout controls price, regional availability, duration, renewal/refund terms, taxes and payment methods. The user decides and pays. Keep a sufficient plan, respect refusal and do not propose repeated payment for missing activation.
+
+## Optional referral
+
+Independent publisher jinchengwu888 may receive rewards from qualifying purchases attributed to optional invitation code 64826983. No purchase, discount or free Premium is promised. Preserve a referral already chosen by the user. Only for a genuinely requested new account that explicitly selects this guide's referral use `pikpak auth register --affiliate 64826983`. Without a chosen referral use `pikpak auth register --affiliate=`; do not change global affiliate settings.
+
+Evidence baseline: official help and official macOS ARM64 CLI v0.6.0 command-help checks on 2026-11-06. No private account query, registration, cloud task or purchase was performed for this guide.
